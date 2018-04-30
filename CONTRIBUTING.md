@@ -1,76 +1,59 @@
-# Contributing to [project-title]
+# Contributing to AppAuth
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+All contributions to AppAuth for iOS are welcome!
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+Note that as this library is planned to be used in high-profile production code,
+we insist on a very high standards for the code and design, but don't feel shy:
+discuss your plans over 
+[GitHub Issues](https://github.com/openid/AppAuth-iOS/issues) and the
+[mailing list](http://lists.openid.net/mailman/listinfo/openid-specs-ab), and
+send in those pull requests!
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+# Signing the Agreements
 
- - [Code of Conduct](#coc)
- - [Issues and Bugs](#issue)
- - [Feature Requests](#feature)
- - [Submission Guidelines](#submit)
+In order to contribute to this project, you need to execute two legal agreements
+that cover your contributions.  Pull requests from users who have not signed
+these agreements will not be merged.
 
-## <a name="coc"></a> Code of Conduct
-Help us keep this project open and inclusive. Please read and follow our [Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+## Execute the Contributor License Agreement (CLA)
 
-## <a name="issue"></a> Found an Issue?
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-[submitting an issue](#submit-issue) to the GitHub Repository. Even better, you can
-[submit a Pull Request](#submit-pr) with a fix.
+1. Visit http://openid.net/contribution-license-agreement/
+2. Tap *Execute OpenID Foundation Contribution License Agreement* for the
+   version relevant to you (Individual or Corporate).
+3. Follow the instructions to sign the agreement.
 
-## <a name="feature"></a> Want a Feature?
-You can *request* a new feature by [submitting an issue](#submit-issue) to the GitHub
-Repository. If you would like to *implement* a new feature, please submit an issue with
-a proposal for your work first, to be sure that we can use it.
+## Execute the Working Group Contribution Agreement
 
-* **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
+In addition to the Code License Agreement, the OpenID Foundation also requires
+a working group contribution agreement to cover any contributions you may make
+towards the OpenID Connect spec itself (e.g. in comments, bug reports, feature
+requests).
 
-## <a name="submit"></a> Submission Guidelines
+1. Visit http://openid.net/intellectual-property/
+2. Tap *Execute Contributor Agreement By Electronic Signature* in the box
+   marked *Resources*.
+3. Follow the instructions to sign the document, state `OpenID AB/Connect` as
+   the Initial Working Group
 
-### <a name="submit-issue"></a> Submitting an Issue
-Before you submit an issue, search the archive, maybe your question was already answered.
+# Making a Pull Request
 
-If your issue appears to be a bug, and hasn't been reported, open a new issue.
-Help us to maximize the effort we can spend fixing issues and adding new
-features, by not reporting duplicate issues.  Providing the following information will increase the
-chances of your issue being dealt with quickly:
+## Before you Start
 
-* **Overview of the Issue** - if an error is being thrown a non-minified stack trace helps
-* **Version** - what version is affected (e.g. 0.1.2)
-* **Motivation for or Use Case** - explain what are you trying to do and why the current behavior is a bug for you
-* **Browsers and Operating System** - is this a problem with all browsers?
-* **Reproduce the Error** - provide a live example or a unambiguous set of steps
-* **Related Issues** - has a similar issue been reported before?
-* **Suggest a Fix** - if you can't fix the bug yourself, perhaps you can point to what might be
-  causing the problem (line of code or commit)
+Before you work on a big new feature, get in touch to make sure that your work
+is inline with the direction of the project and get input on your architecture.
+You can file an [Issue](https://github.com/openid/AppAuth-iOS/issues)
+discussing your proposal, or email the 
+[list](http://lists.openid.net/mailman/listinfo/openid-specs-ab). 
 
-You can file new issues by providing the above information at the corresponding repository's issues link: https://github.com/[organization-name]/[repository-name]/issues/new].
+## Coding Standards
 
-### <a name="submit-pr"></a> Submitting a Pull Request (PR)
-Before you submit your Pull Request (PR) consider the following guidelines:
+The AppAuth library follows the
+[Google Coding Style](https://google.github.io/styleguide/objcguide.xml) for
+the Objective-C language. Please review your own code for adherence to the
+standard.
 
-* Search the repository (https://github.com/[organization-name]/[repository-name]/pulls) for an open or closed PR
-  that relates to your submission. You don't want to duplicate effort.
+## Pull Request Reviews
 
-* Make your changes in a new git fork:
+All pull requests, even by members who have repository write access need to be
+reviewed and marked as "LGTM" before they will be merged.
 
-* Commit your changes using a descriptive commit message
-* Push your fork to GitHub:
-* In GitHub, create a pull request
-* If we suggest changes then:
-  * Make the required updates.
-  * Rebase your fork and force push to your GitHub repository (this will update your Pull Request):
-
-    ```shell
-    git rebase master -i
-    git push -f
-    ```
-
-That's it! Thank you for your contribution!
